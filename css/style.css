@@ -17,3 +17,15 @@ body {
 
 .nav-pills {
   background-color: black; }
+
+.footer {
+  bottom: 0;
+  width: 100%;
+  display: block; }
+
+a.link {
+  color: black; }
+
+div.contact {
+  color: black;
+  font-weight: bold; }
