@@ -1,10 +1,10 @@
 h1 {
-  text-align: center; }
-
-.jumbotron {
-  background-image: url("http://badkidsgoodgrammar.files.wordpress.com/2010/04/bw-roller-skates-2.jpg");
-  background-size: contain;
-  background-repeat: no-repeat; }
+  text-align: center;
+  margin: 0px;
+  padding: 120px 20px 0px 20px;
+  color: white;
+  font-weight: bold;
+  font-size: 3.5em; }
 
 body {
   font-family: "Helvetica", sans-serif;
@@ -34,3 +34,10 @@ div.contact {
 
 .contact {
   background-color: #5F9FFF; }
+
+#primary {
+  background-image: url("../roller3.jpg");
+  background-size: cover;
+  height: 600px; }
+  #primary h1 {
+    font-size: 65px; }
