@@ -1,9 +1,8 @@
 
 
 h1 {
-  text-align: center;
-  margin: 0px;
-padding: 120px 20px 0px 20px;
+text-align: center;
+padding: 25px 20px 0px 20px;
 color: white;
 font-weight: bold;
 font-size: 3.5em;
@@ -24,10 +23,6 @@ body {
   background-size: contain;
 }
 
-.nav-pills {
-    background-color: black;
-}
-
 .footer {
   bottom:0;
   width:100%;
@@ -43,16 +38,20 @@ div.contact {
   font-weight: bold;
 }
 
-#hero1 {
- 
-}
 
 #hero2 {
-   background-color: #5F9FFF;
+   background-image: url("../rollerbg.jpg");
+   .hero-quote2 {
+    p {
+      font-weight: bold !important;
+    }
+  }
 }
 
+
+
 .contact {
-  background-color: #5F9FFF;
+  background-color: rgb(124, 108, 98);  
 }
 
 #primary {
@@ -61,6 +60,18 @@ div.contact {
   height: 600px;
   h1 {
     font-size: 65px;
+    padding: 120px 20px 0px 20px;
   }
 }
 
+.navbar-default {
+  background-color: white !important;
+}
+
+.navbar {
+  border: none !important;
+}
+
+p {
+  padding-bottom: 0;
+}
