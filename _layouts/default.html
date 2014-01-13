@@ -16,11 +16,34 @@
     </head>
     <body>
 
-    <ul class="nav nav-pills">
-      <li class="active"><a href="#">Home</a></li>
-      <li><a href="#">About</a></li>
-      <li><a href="#">Contact</a></li>
+<div class="container">
+<nav class="navbar navbar-default" role="navigation">
+  <!-- Brand and toggle get grouped for better mobile display -->
+  <div class="navbar-header">
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+    <a class="navbar-brand" href="index.html">Home</a>
+  </div>
+
+  <!-- Collect the nav links, forms, and other content for toggling -->
+  <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
     </ul>
+    <form class="navbar-form navbar-left" role="search">
+      <div class="form-group">
+        <input type="text" class="form-control" placeholder="Search">
+      </div>
+      <button type="submit" class="btn btn-default">Submit</button>
+    </form>
+  </div><!-- /.navbar-collapse -->
+</nav>
+</div>
 
 <div class="jumbotron">
   <h1>Rollerskating on Rails</h1>
@@ -29,7 +52,7 @@
         <div class="site">
           <div class="header">
             <h1 class="title"><a href="/">{{ site.name }}</a></h1>
-            <a class="extra" href="/">home</a>
+            <a class="extra" href="/"></a>
           </div>
 
           {{ content }}
@@ -41,8 +64,6 @@
                 Rollerskater on Rails<br />
                 lindseyandmina@gmail.com
               </p>
-            </div>
-            <div class="contact">
               <p>
                 <a class = "link" href="https://github.com/tech-bluenette">github.com/tech-bluenette</a><br />
                 <a class = "link" href="https://twitter.com/tech_bluenette">twitter.com/tech_bluenette</a><br />
