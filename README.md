@@ -1,4 +1,5 @@
-portfolio
+Portfolio
 =========
 
-Portfolio project created with Jekyll and Bootstrap
+A static website created with Jekyll and Bootstrap
+
